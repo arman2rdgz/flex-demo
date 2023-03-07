@@ -1,29 +1,69 @@
 body{
-    width: 100%;
-    height: 100%;
+    background-color:rgb(243, 243, 243);
 }
 
-.blue-container{
+.header{
+    background-color: aliceblue;
+    box-shadow: 10px 1px black;
+
+    padding: 8px;
+    margin: -8px;
+    
+
     display: flex;
-    margin: auto;
-    justify-content:space-around;
     align-items: center;
-    flex-grow: 1;
-    background-color: blue;
-    border: 5px solid pink;
-    width: 80%;
-    height: 250px;
+    gap: 16px;
+    justify-content: space-between;
 }
 
-.red-box{
-    background-color: red;
-    border: 5px solid violet;
-    height: 100px;
-    width: 100px;
+.left-stuff, .right-stuff{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+
+.notifications-button{
+    font-family: 'Courier New', Courier, monospace;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.profile-picture{
+
+ height: 4rem;
+ width: auto;
+ border-radius: 50px;
 
 }
-.red-box-text{
-    align-self: center;
+
+
+.logo{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 850;
+    color: blueviolet;
+
+}
+
+
+
+.links{
+    display: flex;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    gap: 8px;
+    list-style: none;
+    list-style-type: none;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: blueviolet;
 }
